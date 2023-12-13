@@ -1,6 +1,7 @@
 .header {
     height: 360px;
     z-index: 10;
+
 }
 
 .backCover {
@@ -15,8 +16,25 @@
     background-color: $color-hb;
     position: fixed;
     top: 0;
-    z-index: 1000;
+    z-index: 100;
     padding: 15px;
     }
-     
+.words{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+   .discount {
+    color:$color-text;
+    text-transform: uppercase;
+    font-family: $font-big;
+    font-size: 3rem;
+    text-align: center; }
+
+
     
