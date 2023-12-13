@@ -1,3 +1,40 @@
-.pretitle {
-    
+.connect{
+    display:flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    flex-direction: column;
+    padding-top: 5%;
+    &__pretitle{
+        color:$color-hb;
+        font-family:$font-RR;
+        font-size: 1.5rem;
+        text-align: left;
+        height: 30px;
+        width: 100vw;
+        
+    }
+    &__titleSecond{
+    color:$color-sectext;
+    font-family:$font-big;
+    font-size: 1.9rem;
+    padding-bottom: 10px;
+    }
+    &__text{
+    color:$color-foot;
+    font-family:$font-RR;  
+    font-size: 1.9rem; 
+    }
+    &__button{
+        color:$color-hb;
+        border: 3px solid $color-hb;
+        border-radius: 30px;
+        text-align: center;
+        font-family:$font-RR;  
+        font-size: 2rem; 
+        padding: 5px;
+        width: 160px; 
+        height: 40px;
+        margin-top: 5px;
+ 
+}
 }
