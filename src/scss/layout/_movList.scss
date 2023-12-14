@@ -1,0 +1,33 @@
+.mov{
+display:grid;
+flex-direction: column;
+background-color: $color-backmov;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+gap:30px;
+text-align: center;
+align-items: center;
+padding-top: 20px 40px 30px 40px;
+padding-bottom: 30px;
+  &__motion{
+    color:$color-sectext;
+    font-family:$font-big;
+    font-size: 2rem;
+    line-height: 1;
+     
+   }
+   &__navigation {
+        color:$color-text;
+        border: 3px solid $color-hb;
+        background-color:$color-hb ;
+        border-radius: 30px;
+        text-align: center;
+        font-family:$font-RR;  
+        font-size: 2rem; 
+        padding: 5px;
+        width: 160px; 
+        height: 40px;
+        margin: auto;
+     
+   }
+ }

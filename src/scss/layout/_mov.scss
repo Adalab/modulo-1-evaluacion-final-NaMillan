@@ -1,0 +1,15 @@
+.articles{
+    /*display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;*/
+    &__name{
+        font-family:$font-big;
+        font-size:1.6rem;
+    } 
+    &__section{
+        font-family:$font-RR;
+        font-size:1.6rem;
+        padding-bottom:20px;
+        
+    }
+}
